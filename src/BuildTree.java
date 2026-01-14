@@ -9,8 +9,7 @@ public class BuildTree {
         for (Integer treeNode : treeNodes) {
             treeNodeRoot=buildTree(treeNodeRoot,treeNode);
         }
-        ShowBST showBST = new ShowBST();
-        showBST.showBSTByBFS(treeNodeRoot);
+        System.out.println("Your BST is Created Successfully");
     }
 
     private Tree buildTree(Tree treeNodeRoot, Integer treeNode) {
